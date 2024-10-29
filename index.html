@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio: Megha Vishwakarma</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.jpg" type="image/icon type">
+    <script src="https://kit.fontawesome.com/9fba4b1606.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg"  alt="logo" class="logo"> 
+                <!--  <h1><span>M</span>egha <span>V</span>ishwakarma</h1>  -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Expertise</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Megha </span> <br>Vishwakarma</h1>
+                <span id="element"></span>
+            </div>
+        </div>
+    </div>
+
+    <!------------- About ---------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- <img src="images/user1.jpg" alt=""> -->
+                    <img src="images/user2.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="margin-top: 10px;">
+                        I’m a technology-driven thinker focused on blending tech with business strategies.
+                        Dedicated fresher seeking a dynamic role at the intersection of business management and technology. Interested in marketing, Project management, Cloud, and data analysis, I'm eager to contribute to a forward-thinking team, explore new challenges, and gain valuable industry insights.
+                        <br>
+                        I am excited to put my skills to use in a professional setting.
+                        I'm a quick learner and a team player. 
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Language</span>
+                                <p>
+                                    HTML, CSS, Javascript(basics),Python
+                                </p>
+                            </li>
+                            
+                            <li><span>Backend</span>
+                                <p>
+                                    MySQL
+                                </p>
+                            </li>
+                            
+                            <li><span>Other</span>
+                                <p>
+                                     Azure cloud, Tableau,IBM cognos Analytics and Microsoft suite
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+
+                            <li>
+                                <span>
+                                    Business Development Associate -South Asia at VentureBlick
+                                </span>
+                                <br> August 2024 - September 2024
+                            </li>
+                            <p>
+                                &bull;  Onboarded advisors (doctors and industry experts) and innovators onto the Discovery platform, expanding the platform's network of experts. <br>
+                               <br>
+                                &bull;  Managed project timelines and deliverables to ensure efficient execution of business development initiatives.<br>
+                            </p>
+                            <p>
+                                &bull; Skills: Busiess development,Project management,Community engagement, professional networking
+                            </p>
+
+
+                            <li>
+                                <span>
+                                    Product Marketing Intern  at Toothrocket
+                                </span>
+                                <br> June 2024
+                            </li>
+                            <p>
+                                &bull; Effectively communicated with stakeholders and clients to align marketing strategies and
+                                deliver compelling content
+                            </p>
+                            <p>
+                                &bull;Collaborated with cross-functional teams to enhance marketing efforts and achieve strategic
+                                objectives.
+                            </p>
+
+
+
+
+
+
+                            <li>
+                                <span>
+                                    Intern - Data Annotation and Analytics at Data Lumina
+                                </span>
+                                <br> September 2023
+                            </li>
+                            <p>
+                                &bull;Executed precise data annotation tasks, ensuring high-quality labeled datasets for machine
+                                learning model.Collaborated with team members to improve efficiency and accuracy in annotation
+                                workflows.
+                            </p>
+                            
+
+                            <li>
+                                <span>
+                                    Salesforce Developer Intern at Smart Bridge
+                                </span>
+                                <br> November- December 2023
+                            </li>
+                            <p>
+                                &bull; Experienced in Salesforce, specializing in CRM functionalities, user management, and customizations. Successfully designed interactive web interfaces with Lightning Web Components, integrated APIs for seamless data exchange, and implemented automation and custom logic to enhance operational efficiency and data security.
+                                
+                            </p>
+                           
+                        </ul>
+                
+
+
+
+                            <!--li>
+                                <span>
+                                    Intern - Data Annotation and Analytics at Data Lumina
+                                </span>
+                                <br> September 2023
+                            </li>
+                            <p>
+                                &bull; Executed precise data annotation tasks, ensuring high-quality labeled datasets for machine
+                                learning model.
+                                
+                            </p>
+                            <p>
+                                &bull; Collaborated with team members to improve efficiency and accuracy in annotation
+                                workflows.
+                            </p-->
+                        </ul>
+                    </div>
+
+
+
+
+
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>Masters in Business Administration</span>
+                                <p>
+                                    &bull; From AISSMS Institute of Management, Pune <br>
+                                    &bull; Major : Business Analytics Minor : Marketing <br>
+                                    &bull; Related coursework Business Fundamentals,Marketing & analytical skills
+                                    <br>
+                                </p>
+                            </li>
+                            <li>
+                                <span>Bachelor of Business Administration (Computer Application)</span>
+                                <p>
+                                    &bull; From Modern college of Arts, Science and Commerce, Shivajinagar
+                                   
+                                </p>
+                                <p>
+                                    &bull;  Related coursework: Business Studies, Data structures, programming in C++, C, SQL,
+                                    algorithms, Web and Android development</p>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!----------- Services ----------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Expertise</h1>
+            <div class="services-list">
+                
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <h2>Marketing and Digital Marketing</h2>
+                    <p>Driven marketing enthusiast with a certificate in digital marketing, Google Analytics skills, and internship experience in sales and marketing.
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Data analysis</h2>
+                    <p>Passionate data analyst eager to deepen my expertise across platforms like Fabric, Excel, IBM Cognos, Tableau, and Python
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front End Development & Cloud computing</h2>
+                    <p>Innovative thinker with a budding expertise in web development and cloud principles, ready to take on new challenges
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!----------- Timeline ----------->
+    <div class="container">
+    <h1 class="sub-title">Experience & Education Timeline</h1>
+    <!--iframe src="experience.html" width="1200" height="1550"></iframe-->
+
+    <iframe src="experience.html" width="1200" height="1550" style="border: none; margin: 0; padding: 0;"></iframe>
+</div>
+
+    <!------------ Projects ----------->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3 style="font-weight: bold; color: aqua;">CogniCare</h3>
+                        <p>CogniCare- the Emotion-Based Song and Video Player for Kids and People with Disabilities, uses cutting-edge AI technology to offer a more engaging and inclusive experience for learning and entertainment. 
+                        </p> <br>
+                        <p>Tech Stack -Javascript, React & AI</p>
+                        <a href="https://github.com/megha-vishwakarma/cogniCare" target="_blank">
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3 style="font-weight: bold; color: aqua;">Social Media Hate Comment Detector</h3>
+                        <p> The Social Media Hate Comment Detector is a Python-based project designed to identify and flag hateful or offensive comments across social media platforms. </p> <br>
+                        <p>Tech Stack - Python</p>
+
+                        <a href="https://github.com/megha-vishwakarma/hate-comment-detection" target="_blank">
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3 style="font-weight: bold; color: aqua;">Sales Data analysis</h3>
+                        <p>Developed a comprehensive sales data analysis dashboard that visualizes key performance metrics and drives informed decision-making. </p>
+                        <a href="https://github.com/megha-vishwakarma/sales-analysis" target="_blank">
+                            <i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://github.com/megha-vishwakarma" target="_blank" class="button">See More</a>
+        </div>
+    </div>
+
+
+
+
+      <!------------ Certificates ----------->
+
+      <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Certificates </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/c1.png">
+                    <div class="layer">
+                        <h3 style="font-weight: bold">Microsoft Certified: Azure AI Fundamentals</h3>
+                        
+                        <p>from Microsoft</p>
+                        <a href="https://learn.microsoft.com/api/credentials/share/en-us/MeghaVishwakarma-7224/DA0DEAD85690311A?sharingId=studentamb_103104?wt.mc_id=studentamb_103104" target="_blank">
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/c2.png">
+                    <div class="layer">
+                        <h3 style="font-weight: bold">Digital Marketing</h3>
+                         <p>from Google</p>
+
+                        <a href="https://drive.google.com/file/d/1_QvPPZfPJ7blsIbjtoe0_H9sUIHGMesl/view" target="_blank">
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/c3.png">
+                    <div class="layer">
+                        <h3 style="font-weight: bold">Excel Basics for Data analysis</h3>
+                        <p>from IBM and Coursera</p>
+                        <a href="https://coursera.org/share/7933bd0592ac80f209f4ab231a93846d" target="_blank">
+                            <i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--a href="https://github.com/megha-vishwakarma/sales-analysis" target="_blank" class="button">See More</a-->
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!------------- Contact ------------>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>vmegha1231@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/meghav01" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/megha-vishwakarma" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://instagram.com/_https.megha_v" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                       <!-- <a href="https://medium.com" target="_blank"><i class="fa-solid fa-feather-pointed"></i></a>-->
+                    </div>
+                    <a href="images/resume.pdf" download class="button button2"> Download Resume</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="button button2">Submit</button>
+                    </form>
+                    <span id="message"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> &#169; Megha Vishwakarma - All rights reserved</p>
+        </div>
+    </div>
+
+
+    <!-- <script src="script.js"></script> -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        //contact-form-googlesheet
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz3EuGB2Q9EH9oR6g21vTld21Pk9p7i29bx_2omgsDEKPeF-QawhbqB0Wo_72gtnCnIAg/exec'
+
+        const form = document.forms['submit-to-google-sheet']
+        const message = document.getElementById("message")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    message.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        message.innerHTML = ""
+                    }, 3000)
+                    form.reset()
+                }
+                )
+                .catch(error => console.error('Error!', error.messsage))
+        })
+    </script>
+
+    <script>
+
+        // About Me tab
+        let tablinks = document.getElementsByClassName("tab-links");
+        let tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+        const sidemenu = document.getElementById("sidemenu");
+
+        function openMenu() {
+            sidemenu.style.right = '0'
+        }
+
+        function closeMenu() {
+            sidemenu.style.right = '-200vw'
+        }
+
+
+        //typewriter word animation
+        const typed = new Typed('#element', {
+            strings: [
+                'A tech-savvy newcomer passionate about using <br> innovation to shape business strategies',
+                ' Eager to leverage my tech skills and  <br> business knowledge to drive innovative solutions',
+                'I\'m a Data Analyst,a digital marketing enthusiast, <br> and a front-end developer.',
+                'I connect business and technology with skills in <br>data analysis, cloud computing, web development & AI',
+                'based in Pune, India',
+            ],
+            typeSpeed: 50,
+            backSpeed: 20,
+            loop: true,
+            loopCount: Infinity,
+            showCursor: true,
+            cursorChar: '|',
+            startDelay: 500,
+            backDelay: 1000
+        });
+
+
+    </script>
+</body>
+
+</html>
